@@ -1,6 +1,5 @@
 // this file will be used to test the specific function in TDD
 const Manager = require("../lib/Manager");
-const Employee = require("../lib/Employee");
 
 test("Can set office number via constructor argument", () => {
   const testValue = 100;
